@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import TodosView from '@/views/TodosView.vue';
 import TodoButton from '@/components/TodoButton.vue';
-import { defineEmits, ref, reactive } from 'vue';
+// import { defineEmits, ref, reactive } from 'vue';
+import { ref, reactive } from 'vue';
 import type { Todo } from '@/types/Todo';
 
 const todoState = reactive<Todo>({
