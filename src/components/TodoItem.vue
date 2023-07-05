@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-// import { defineProps, defineEmits } from 'vue';
+import { defineProps, defineEmits } from 'vue';
 import type { Todo } from '@/types/Todo';
 import { Icon } from '@iconify/vue'; 
 
